@@ -1,0 +1,14 @@
+<h1>Result</h1>
+
+<!-- <h3>Letters given to form a word:</h3>
+<%= @letters %>
+
+<h3>Your attempt:</h3>
+<%= @attempt %>
+
+<h3>Score</h3> -->
+
+<p><%= @result[:message] %></p>
+<p>Your score is <%= @result[:score] %></p>
+
+<%= link_to 'Play Again', new_path %>
